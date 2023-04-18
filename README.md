@@ -16,6 +16,13 @@
 
 ## **First Step (Installation of Tools)**
 
-[Install GH Cli - ](https://cli.github.com/manual/installation)
-[Install Git - ](https://git-scm.com/downloads)
-[Install JQ : Optional - ](https://stedolan.github.io/jq/download/)
+* [Install GH Cli -> ](https://cli.github.com/manual/installation)
+* [Install Git -> ](https://git-scm.com/downloads)
+* [Install JQ : Optional -> ](https://stedolan.github.io/jq/download/)
+
+
+After installations, you have to authenticate gh cli by running the command 
+`gh auth login` 
+
+You can find the extensive gh cli commands [Here -> ](https://cli.github.com/manual/)
+
