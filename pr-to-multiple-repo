@@ -1,0 +1,14 @@
+for repo in $(gh repo list <git.username> --no-archived -L 5 --json "owner,name" --template '{{range .}}{{tablerow (.name) }}{{end}}'); do
+ 
+        git clone https://github.com/<git.username>/${repo}.git
+        cd ${repo}
+        git checkout development
+        git checkout -b Feature-branch
+        cp /path/to/file/test.txt .
+        git add .
+        git commit -m "Add test config file"
+        git push -u origin Feature-branch
+        gh pr create --base development --head Feature-branch --title "Add test config file" --body "Add test config file" 
+        cd ..
+ 
+done
