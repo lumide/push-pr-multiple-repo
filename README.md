@@ -33,7 +33,9 @@ After installations, you have to authenticate gh cli by running the command
 `gh auth login` 
 
 You can find the extensive gh cli commands [Here -> ](https://cli.github.com/manual/)
+-
 <img width="611" alt="image" src="https://user-images.githubusercontent.com/24320233/232786524-a38dbd33-8295-498b-97b7-0a8042e14e61.png">
+-
 
 Sign in with credentials and paste the code generated and authorize
 
